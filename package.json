@@ -9,6 +9,7 @@
   "author": "Devesh Rawat",
   "license": "ISC",
   "dependencies": {
-    "crypto-js": "^3.1.9-1"
+    "crypto-js": "^3.1.9-1",
+    "sha256": "^0.2.0"
   }
 }
