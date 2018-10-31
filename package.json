@@ -4,12 +4,16 @@
   "description": "Block Chian Through JS",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --watch dev -e js dev/api.js"
   },
   "author": "Devesh Rawat",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.18.3",
     "crypto-js": "^3.1.9-1",
-    "sha256": "^0.2.0"
+    "express": "^4.16.4",
+    "sha256": "^0.2.0",
+    "uuid": "^3.3.2"
   }
 }
